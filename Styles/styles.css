@@ -9,7 +9,6 @@ header {
     padding: 177px 344px;
     border-radius: 16px;
     background-repeat: no-repeat;
-    width: 80%;
 }
 
 
@@ -112,7 +111,7 @@ main {
 }
 
 /* Section 3 */
-.Section-3{
+.Section-3 {
     margin: 120px 140px;
     padding: 100px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -137,8 +136,100 @@ main {
     line-height: 56px;
     text-transform: capitalize;
 }
-/* section -4 */
 
+/* section -4 */
+.section-4 {
+    margin: 120px 140px;
+}
+
+.section-4-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section-4-title-description {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 16px 0px 22px;
+}
+
+.section-4-content {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 900px;
+    margin-bottom: 48px;
+}
+
+.section-4-images img {
+    max-width: 320px;
+}
+
+.image-row-1 {
+    margin-bottom: 24px;
+}
+
+.img-mid {
+    margin: 0 24px;
+}
+
+/* newsleter section */
+.newsleter-section {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 80px 212px;
+    margin: 0 140px 120px;
+
+}
+
+.Subscribe-h {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 40px 0 22px;
+}
+
+.Subscribe-content {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.round-input{
+    text-align: center;
+}
+
+
+.email-input {
+    border-radius: 50px 0px 0px 50px;
+    padding: 26px 200px 24px 30px;
+    border: 0;
+    max-width: 200px;
+    background: #FFF;
+    max-width: 650px;
+}
+
+.Subscribe-btn {
+    padding: 20px 56px;
+    border: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+
+.button-caption {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 
 /* footer */
@@ -154,7 +245,7 @@ footer {
     padding-bottom: 50px;
 }
 
-.footer-2nd-row{
+.footer-2nd-row {
     text-align: center;
     padding: 48px;
 }
@@ -172,14 +263,17 @@ footer {
     font-weight: 500;
     max-width: 375px;
 }
-#website-icon{
+
+#website-icon {
     margin-top: 0;
     padding-right: 100px;
 }
-#call-icon{
+
+#call-icon {
     margin-bottom: 0;
     padding-right: 100px;
 }
-footer hr{
+
+footer hr {
     color: rgba(255, 255, 255, 0.15);
 }
