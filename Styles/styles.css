@@ -1,6 +1,7 @@
-*{
+* {
     margin: 0;
 }
+
 .header {
     margin: 50px 50px 0;
     background: url("../Images/Banner\ Image.png");
@@ -138,13 +139,14 @@ main {
     font-weight: 600;
     line-height: 56px;
 }
-.section-3-btn{
+
+.section-3-btn {
     color: #FFF;
-border-radius: 8px;
-background: #F00;
-border: 0;
-padding: 16px 32px;
-margin-top: 48px;
+    border-radius: 8px;
+    background: #F00;
+    border: 0;
+    padding: 16px 32px;
+    margin-top: 48px;
 }
 
 /* section -4 */
@@ -186,6 +188,9 @@ margin-top: 48px;
 
 .img-mid {
     margin: 0 24px;
+}
+.section-4-images img:hover{
+    transform: scale(1.25);
 }
 
 /* newsleter section */
@@ -290,48 +295,55 @@ footer hr {
 }
 
 /* bonus -1 */
-.Bonus-1{
+.Bonus-1 {
     display: flex;
     text-align: center;
     margin: 120px 140px;
 }
-.Bonus-1-1{
-        max-width: 395px;
+
+.Bonus-1-1 {
+    max-width: 395px;
 }
-.Bonus-1-1-h{
+
+.Bonus-1-1-h {
     color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
-.Bonus-1-1-h2{
+
+.Bonus-1-1-h2 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
     margin: 16px 0 22px;
 }
-.Bonus-1-p{
+
+.Bonus-1-p {
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-margin-bottom: 40px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
 }
-.round-border{
+
+.round-border {
     border-radius: 300px;
     border: 15px solid #F00;
     padding: 40px;
     margin: 50px;
 }
-.year-2024{
+
+.year-2024 {
     color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-margin: 16px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 16px;
 }
-.Bonus-1-right{
+
+.Bonus-1-right {
     text-align: center;
     align-content: center;
 }
